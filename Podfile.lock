@@ -1,0 +1,25 @@
+PODS:
+  - AwesomeData (0.3.9):
+    - ReachabilitySwift (~> 3)
+  - ReachabilitySwift (3)
+
+DEPENDENCIES:
+  - AwesomeData (from `https://github.com/iOSWizards/AwesomeData.git`, tag `0.3.9`)
+
+EXTERNAL SOURCES:
+  AwesomeData:
+    :git: https://github.com/iOSWizards/AwesomeData.git
+    :tag: 0.3.9
+
+CHECKOUT OPTIONS:
+  AwesomeData:
+    :git: https://github.com/iOSWizards/AwesomeData.git
+    :tag: 0.3.9
+
+SPEC CHECKSUMS:
+  AwesomeData: 9467845610cd0118de55c72db8073e13191e6ab7
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+
+PODFILE CHECKSUM: 8ae8fc169f5f02bf6fb3fa3a75d7b302725aa817
+
+COCOAPODS: 1.2.0

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AC411FD1E8287510059BCD2"
-               BuildableName = "AwesomePictures2.app"
-               BlueprintName = "AwesomePictures2"
-               ReferencedContainer = "container:AwesomePictures2.xcodeproj">
+               BlueprintIdentifier = "B74B6298DB425BAC8D4B3D13F30A1559"
+               BuildableName = "Pods_AwesomePictures2.framework"
+               BlueprintName = "Pods-AwesomePictures2"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AC411FD1E8287510059BCD2"
-            BuildableName = "AwesomePictures2.app"
-            BlueprintName = "AwesomePictures2"
-            ReferencedContainer = "container:AwesomePictures2.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AC411FD1E8287510059BCD2"
-            BuildableName = "AwesomePictures2.app"
-            BlueprintName = "AwesomePictures2"
-            ReferencedContainer = "container:AwesomePictures2.xcodeproj">
+            BlueprintIdentifier = "B74B6298DB425BAC8D4B3D13F30A1559"
+            BuildableName = "Pods_AwesomePictures2.framework"
+            BlueprintName = "Pods-AwesomePictures2"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AC411FD1E8287510059BCD2"
-            BuildableName = "AwesomePictures2.app"
-            BlueprintName = "AwesomePictures2"
-            ReferencedContainer = "container:AwesomePictures2.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

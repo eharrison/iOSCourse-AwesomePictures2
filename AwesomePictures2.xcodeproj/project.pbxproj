@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0AC412021E8287510059BCD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC412011E8287510059BCD2 /* AppDelegate.swift */; };
-		0AC412041E8287510059BCD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC412031E8287510059BCD2 /* ViewController.swift */; };
 		0AC412071E8287510059BCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC412051E8287510059BCD2 /* Main.storyboard */; };
 		0AC4120A1E8287510059BCD2 /* AwesomePictures2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AC412081E8287510059BCD2 /* AwesomePictures2.xcdatamodeld */; };
 		0AC4120C1E8287510059BCD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4120B1E8287510059BCD2 /* Assets.xcassets */; };
 		0AC4120F1E8287510059BCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4120D1E8287510059BCD2 /* LaunchScreen.storyboard */; };
+		0AC4121B1E828C980059BCD2 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4121A1E828C980059BCD2 /* PictureCollectionViewCell.swift */; };
+		0AC4121D1E828DEA0059BCD2 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */; };
+		F533239718E28511F5AEF2B4 /* Pods_AwesomePictures2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3B4054173C58DB267DDF0C /* Pods_AwesomePictures2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0622D6CE6353506DB9BF6A84 /* Pods-AwesomePictures2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePictures2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2.debug.xcconfig"; sourceTree = "<group>"; };
 		0AC411FE1E8287510059BCD2 /* AwesomePictures2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomePictures2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC412011E8287510059BCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AC412031E8287510059BCD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AC412061E8287510059BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AC412091E8287510059BCD2 /* AwesomePictures2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AwesomePictures2.xcdatamodel; sourceTree = "<group>"; };
 		0AC4120B1E8287510059BCD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AC4120E1E8287510059BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AC412101E8287510059BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC4121A1E828C980059BCD2 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureCollectionViewCell.swift; path = Views/Cells/PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PicturesViewController.swift; path = Views/Controllers/PicturesViewController.swift; sourceTree = "<group>"; };
+		2E024E9EEF6C1D85DE87200C /* Pods-AwesomePictures2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePictures2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2.release.xcconfig"; sourceTree = "<group>"; };
+		4D3B4054173C58DB267DDF0C /* Pods_AwesomePictures2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomePictures2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F533239718E28511F5AEF2B4 /* Pods_AwesomePictures2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				0AC412001E8287510059BCD2 /* AwesomePictures2 */,
 				0AC411FF1E8287510059BCD2 /* Products */,
+				44DBCCE22C13EEA0041F8B1A /* Pods */,
+				B4BA9322FEE5E16364F1F064 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,64 @@
 			isa = PBXGroup;
 			children = (
 				0AC412011E8287510059BCD2 /* AppDelegate.swift */,
-				0AC412031E8287510059BCD2 /* ViewController.swift */,
-				0AC412051E8287510059BCD2 /* Main.storyboard */,
+				0AC412171E8289900059BCD2 /* Views */,
+				0AC412161E8287B20059BCD2 /* Storyboards */,
 				0AC4120B1E8287510059BCD2 /* Assets.xcassets */,
-				0AC4120D1E8287510059BCD2 /* LaunchScreen.storyboard */,
 				0AC412101E8287510059BCD2 /* Info.plist */,
 				0AC412081E8287510059BCD2 /* AwesomePictures2.xcdatamodeld */,
 			);
 			path = AwesomePictures2;
+			sourceTree = "<group>";
+		};
+		0AC412161E8287B20059BCD2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0AC412051E8287510059BCD2 /* Main.storyboard */,
+				0AC4120D1E8287510059BCD2 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0AC412171E8289900059BCD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AC412181E8289A40059BCD2 /* Controllers */,
+				0AC412191E8289AC0059BCD2 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0AC412181E8289A40059BCD2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0AC412191E8289AC0059BCD2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4121A1E828C980059BCD2 /* PictureCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		44DBCCE22C13EEA0041F8B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0622D6CE6353506DB9BF6A84 /* Pods-AwesomePictures2.debug.xcconfig */,
+				2E024E9EEF6C1D85DE87200C /* Pods-AwesomePictures2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4BA9322FEE5E16364F1F064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B4054173C58DB267DDF0C /* Pods_AwesomePictures2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AC412131E8287510059BCD2 /* Build configuration list for PBXNativeTarget "AwesomePictures2" */;
 			buildPhases = (
+				510FA90611E3D94209C4970E /* [CP] Check Pods Manifest.lock */,
 				0AC411FA1E8287510059BCD2 /* Sources */,
 				0AC411FB1E8287510059BCD2 /* Frameworks */,
 				0AC411FC1E8287510059BCD2 /* Resources */,
+				1CA418527A3AA238013A9B04 /* [CP] Embed Pods Frameworks */,
+				6CD5AE121F42B53BBA944657 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,13 +197,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CA418527A3AA238013A9B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510FA90611E3D94209C4970E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD5AE121F42B53BBA944657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AC411FA1E8287510059BCD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC4121B1E828C980059BCD2 /* PictureCollectionViewCell.swift in Sources */,
+				0AC4121D1E828DEA0059BCD2 /* PicturesViewController.swift in Sources */,
 				0AC4120A1E8287510059BCD2 /* AwesomePictures2.xcdatamodeld in Sources */,
-				0AC412041E8287510059BCD2 /* ViewController.swift in Sources */,
 				0AC412021E8287510059BCD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +374,7 @@
 		};
 		0AC412141E8287510059BCD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0622D6CE6353506DB9BF6A84 /* Pods-AwesomePictures2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 496E7TU5N4;
@@ -276,6 +388,7 @@
 		};
 		0AC412151E8287510059BCD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E024E9EEF6C1D85DE87200C /* Pods-AwesomePictures2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 496E7TU5N4;
@@ -306,6 +419,7 @@
 				0AC412151E8287510059BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
