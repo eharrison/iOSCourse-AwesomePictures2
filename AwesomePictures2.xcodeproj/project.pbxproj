@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4D1DD01E8BC33000AF2AE6 /* ImageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D1DCF1E8BC33000AF2AE6 /* ImageObject.swift */; };
+		0A4D1DD21E8BC6B300AF2AE6 /* UIView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D1DD11E8BC6B300AF2AE6 /* UIView+Loading.swift */; };
+		0A4D1DD41E8BC87600AF2AE6 /* FullscreenPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D1DD31E8BC87600AF2AE6 /* FullscreenPictureViewController.swift */; };
 		0AC412021E8287510059BCD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC412011E8287510059BCD2 /* AppDelegate.swift */; };
 		0AC412071E8287510059BCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC412051E8287510059BCD2 /* Main.storyboard */; };
 		0AC4120A1E8287510059BCD2 /* AwesomePictures2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AC412081E8287510059BCD2 /* AwesomePictures2.xcdatamodeld */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		0622D6CE6353506DB9BF6A84 /* Pods-AwesomePictures2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePictures2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2.debug.xcconfig"; sourceTree = "<group>"; };
+		0A4D1DCF1E8BC33000AF2AE6 /* ImageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageObject.swift; sourceTree = "<group>"; };
+		0A4D1DD11E8BC6B300AF2AE6 /* UIView+Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Loading.swift"; sourceTree = "<group>"; };
+		0A4D1DD31E8BC87600AF2AE6 /* FullscreenPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullscreenPictureViewController.swift; path = Views/Controllers/FullscreenPictureViewController.swift; sourceTree = "<group>"; };
 		0AC411FE1E8287510059BCD2 /* AwesomePictures2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomePictures2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC412011E8287510059BCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AC412061E8287510059BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4D1DCE1E8BC33000AF2AE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D1DCF1E8BC33000AF2AE6 /* ImageObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0AC411F51E8287510059BCD2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC412011E8287510059BCD2 /* AppDelegate.swift */,
+				0A4D1DCE1E8BC33000AF2AE6 /* Model */,
 				0AC412171E8289900059BCD2 /* Views */,
 				0AC412161E8287B20059BCD2 /* Storyboards */,
 				0AC4120B1E8287510059BCD2 /* Assets.xcassets */,
@@ -87,6 +102,7 @@
 		0AC412171E8289900059BCD2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A4D1DD11E8BC6B300AF2AE6 /* UIView+Loading.swift */,
 				0AC412181E8289A40059BCD2 /* Controllers */,
 				0AC412191E8289AC0059BCD2 /* Cells */,
 			);
@@ -97,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */,
+				0A4D1DD31E8BC87600AF2AE6 /* FullscreenPictureViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -251,9 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC4121B1E828C980059BCD2 /* PictureCollectionViewCell.swift in Sources */,
+				0A4D1DD41E8BC87600AF2AE6 /* FullscreenPictureViewController.swift in Sources */,
 				0AC4121D1E828DEA0059BCD2 /* PicturesViewController.swift in Sources */,
 				0AC4120A1E8287510059BCD2 /* AwesomePictures2.xcdatamodeld in Sources */,
+				0A4D1DD01E8BC33000AF2AE6 /* ImageObject.swift in Sources */,
 				0AC412021E8287510059BCD2 /* AppDelegate.swift in Sources */,
+				0A4D1DD21E8BC6B300AF2AE6 /* UIView+Loading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
