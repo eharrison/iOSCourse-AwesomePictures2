@@ -29,7 +29,7 @@
         <!--Pictures View Controller-->
         <scene sceneID="ZjK-Ob-8RV">
             <objects>
-                <viewController id="M8o-FJ-c8J" customClass="PicturesViewController" customModule="AwesomePictures2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Pictures" id="M8o-FJ-c8J" customClass="PicturesViewController" customModule="AwesomePictures2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jga-gI-6i6"/>
                         <viewControllerLayoutGuide type="bottom" id="MNL-up-RVd"/>

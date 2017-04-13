@@ -17,6 +17,7 @@
 		0AC4120F1E8287510059BCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4120D1E8287510059BCD2 /* LaunchScreen.storyboard */; };
 		0AC4121B1E828C980059BCD2 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4121A1E828C980059BCD2 /* PictureCollectionViewCell.swift */; };
 		0AC4121D1E828DEA0059BCD2 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */; };
+		0ACC7E411E9E38A900682B2B /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC7E3F1E9E38A900682B2B /* Container.storyboard */; };
 		F533239718E28511F5AEF2B4 /* Pods_AwesomePictures2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3B4054173C58DB267DDF0C /* Pods_AwesomePictures2.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		0AC412101E8287510059BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC4121A1E828C980059BCD2 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureCollectionViewCell.swift; path = Views/Cells/PictureCollectionViewCell.swift; sourceTree = "<group>"; };
 		0AC4121C1E828DEA0059BCD2 /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PicturesViewController.swift; path = Views/Controllers/PicturesViewController.swift; sourceTree = "<group>"; };
+		0ACC7E401E9E38A900682B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Container.storyboard; sourceTree = "<group>"; };
 		2E024E9EEF6C1D85DE87200C /* Pods-AwesomePictures2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePictures2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePictures2/Pods-AwesomePictures2.release.xcconfig"; sourceTree = "<group>"; };
 		4D3B4054173C58DB267DDF0C /* Pods_AwesomePictures2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomePictures2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			children = (
 				0AC412051E8287510059BCD2 /* Main.storyboard */,
 				0AC4120D1E8287510059BCD2 /* LaunchScreen.storyboard */,
+				0ACC7E3F1E9E38A900682B2B /* Container.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC4120F1E8287510059BCD2 /* LaunchScreen.storyboard in Resources */,
+				0ACC7E411E9E38A900682B2B /* Container.storyboard in Resources */,
 				0AC4120C1E8287510059BCD2 /* Assets.xcassets in Resources */,
 				0AC412071E8287510059BCD2 /* Main.storyboard in Resources */,
 			);
@@ -294,6 +298,14 @@
 				0AC4120E1E8287510059BCD2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0ACC7E3F1E9E38A900682B2B /* Container.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACC7E401E9E38A900682B2B /* Base */,
+			);
+			name = Container.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
